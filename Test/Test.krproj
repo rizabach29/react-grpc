@@ -1,0 +1,35 @@
+{
+  "id": "a3cd7022-4ab8-4707-b58b-d9aed136f237",
+  "importStreams": [
+    {
+      "id": "ad44d96d-9f95-46cc-8b2a-b9f193550a3a",
+      "name": "grpc-test",
+      "importerName": "ProtoFile",
+      "createMissingOperations": true,
+      "options": {
+        "files": [
+          "../../../.NET/GrpcService2/Protos/user.proto"
+        ],
+        "importPaths": []
+      }
+    }
+  ],
+  "authConfigs": [
+    {
+      "name": "JWT",
+      "providerName": "jwt-profile",
+      "id": "53b4fee1-204d-4bc2-9a0f-0c3b69f77aa3",
+      "options": {
+        "signingKey": "",
+        "audience": "",
+        "subject": "",
+        "keyId": "",
+        "expiryDeltaSeconds": 60,
+        "issuer": "",
+        "scope": "",
+        "tokenEndpoint": "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTUxMiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJyaXphLmJhY2h0aWFyLnJiQGdtYWlsLmNvbSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6ImFkbWluIn0._2QEVjLhGOd91NJUy4Qut1OlutgruYOvwFaQHnBP4wEpr4VGS261Vf605nBJf2YTgjaBplhPdpU4n5337FQh0Q"
+      }
+    }
+  ],
+  "certificates": []
+}

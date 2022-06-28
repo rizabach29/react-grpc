@@ -1,0 +1,9 @@
+{
+  "name": "{{ faker.name.last_name }}",
+  "user": {
+    "name": "{{ faker.name.last_name }}",
+    "displayName": "fooBar",
+    "email": "{{ faker.internet.example_email }}"
+  },
+  "mask": "fooBar,fooBar"
+}

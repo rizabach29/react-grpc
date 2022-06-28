@@ -1,0 +1,8 @@
+{
+  "parent": "fooBar",
+  "photo": {
+    "name": "{{ faker.name.last_name }}",
+    "displayName": "fooBar",
+    "createdAt": "1970-01-01T00:02:03.000000123Z"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "details": {
+    "methodFqn": "user.ExamplePhotoService.DeletePhoto"
+  },
+  "requests": [
+    {
+      "location": "DeletePhoto-request.json"
+    }
+  ],
+  "operationType": "unary",
+  "invokerName": "grpc"
+}

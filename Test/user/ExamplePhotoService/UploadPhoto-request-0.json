@@ -1,0 +1,6 @@
+{
+  "name": "{{ faker.name.last_name }}",
+  "dataBlock": "Zm9vQmFy",
+  "dataBlockHash": "fooBar",
+  "dataHash": "fooBar"
+}
